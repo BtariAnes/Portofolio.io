@@ -939,11 +939,12 @@ header {
   .testimony blockquote p {
     font-family: "Playfair Display", Georgia, serif;
     color: #000;
-    font-size: 30px; }
+    font-size: 20px; 
+    line-height: 1.6;}
   .testimony blockquote span {
     font-family: "Playfair Display", Georgia, serif;
     color: #000;
-    font-size: 30px; }
+    font-size: 16px; }
 
 .f-entry {
   position: relative;
@@ -1256,12 +1257,20 @@ input[type="text"] {
 .form-group {
   margin-bottom: 30px; }
 
-.colorlib-social-icons a:hover, .colorlib-social-icons a:focus {
-  text-decoration: none !important; }
+.colorlib-social-icons a {
+  margin-right: 12px; /* tambahkan jarak antar ikon */
+}
+
+.colorlib-social-icons a:hover,
+.colorlib-social-icons a:focus {
+  text-decoration: none !important;
+}
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #CA82F8;
+}
+
 
 #footer {
   padding: 8em 0;
