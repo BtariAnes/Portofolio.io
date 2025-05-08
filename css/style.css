@@ -57,6 +57,13 @@ span {
   font-size: 18px;
   color: rgba(114, 114, 114, 0.8); }
 
+  .app-name {
+  font-size: 1.2em; /* Lebih besar dari teks lainnya */
+  font-weight: bold;
+  color: #CA82F8; /* Ganti warna sesuai preferensi */
+}
+  
+
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
   font-family: "Playfair Display", Georgia, serif;
@@ -966,7 +973,7 @@ header {
 
 .btn {
   margin-right: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
   font-size: 13px !important;
   font-weight: 400;
   text-transform: uppercase;
@@ -974,7 +981,8 @@ header {
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
   -ms-border-radius: 1px;
-  border-radius: 1px;
+  padding: 10px 20px; /* Spasi dalam tombol */
+  border-radius: 8px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
